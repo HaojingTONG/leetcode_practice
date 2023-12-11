@@ -1,3 +1,6 @@
+from ast import List
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         index_map = {} # Create a dictionary to store number: index pairs
